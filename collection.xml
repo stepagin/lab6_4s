@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.8" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>key1</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker0">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <long>4295494583670020097</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <string>Pudge</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates0">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates0"/>
+         <long>500</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates0"/>
+         <double>136.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <float>260197.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2084-07-20</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <object class="java.lang.Enum" id="Position0" method="valueOf">
+       <class>ru.stepagin.common.lab.Position</class>
+       <string>CLEANER</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <object class="java.lang.Enum" id="Status0" method="valueOf">
+       <class>ru.stepagin.common.lab.Status</class>
+       <string>HIRED</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker0"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization0">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization0"/>
+         <int>9715</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization0"/>
+         <object class="java.lang.Enum" id="OrganizationType0" method="valueOf">
+          <class>ru.stepagin.common.lab.OrganizationType</class>
+          <string>GOVERNMENT</string>
+         </object>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization0"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address0">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address0"/>
+            <string>Slave str. 13</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address0"/>
+            <string>937300318</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key2</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker1">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <long>8775951572891582465</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <string>Oleg</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates1">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates1"/>
+         <long>504</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates1"/>
+         <double>59.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <float>320450.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2042-07-19</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <object class="java.lang.Enum" method="valueOf">
+       <class>ru.stepagin.common.lab.Position</class>
+       <string>LABORER</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <object idref="Status0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker1"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization1">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization1"/>
+         <int>7175</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization1"/>
+         <object idref="OrganizationType0"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization1"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address1">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address1"/>
+            <string>Slave str. 43</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address1"/>
+            <string>930034541</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key0</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker2">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <long>1061609871960873985</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <string>Artem</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates2">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates2"/>
+         <long>297</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates2"/>
+         <double>74.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <float>352218.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2054-01-12</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <object idref="Position0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <object class="java.lang.Enum" id="Status1" method="valueOf">
+       <class>ru.stepagin.common.lab.Status</class>
+       <string>RECOMMENDED_FOR_PROMOTION</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker2"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization2">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization2"/>
+         <int>7353</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization2"/>
+         <object class="java.lang.Enum" id="OrganizationType1" method="valueOf">
+          <class>ru.stepagin.common.lab.OrganizationType</class>
+          <string>PUBLIC</string>
+         </object>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization2"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address2">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address2"/>
+            <string>Slave str. 67</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address2"/>
+            <string>578717314</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key5</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker3">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <long>8566739130663930881</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <string>Pudge</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates3">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates3"/>
+         <long>620</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates3"/>
+         <double>62.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <float>986364.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2088-01-17</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <object idref="Position0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <object class="java.lang.Enum" id="Status2" method="valueOf">
+       <class>ru.stepagin.common.lab.Status</class>
+       <string>REGULAR</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker3"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization3">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization3"/>
+         <int>3558</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization3"/>
+         <object idref="OrganizationType0"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization3"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address3">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address3"/>
+            <string>Slave str. 47</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address3"/>
+            <string>884091829</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key6</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker4">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <long>1641664622547683329</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <string>Jesus_Christ</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates4">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates4"/>
+         <long>373</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates4"/>
+         <double>65.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <float>951686.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2079-05-13</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <object class="java.lang.Enum" id="Position1" method="valueOf">
+       <class>ru.stepagin.common.lab.Position</class>
+       <string>BAKER</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <object idref="Status0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker4"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization4">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization4"/>
+         <int>2590</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization4"/>
+         <object idref="OrganizationType1"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization4"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address4">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address4"/>
+            <string>Slave str. 33</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address4"/>
+            <string>396948608</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key3</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker5">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <long>7814967181758942209</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <string>Jesus_Christ</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates5">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates5"/>
+         <long>750</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates5"/>
+         <double>55.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <float>392602.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2049-04-17</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <object idref="Position0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <object idref="Status1"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker5"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization5">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization5"/>
+         <int>3217</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization5"/>
+         <object idref="OrganizationType0"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization5"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address5">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address5"/>
+            <string>Slave str. 32</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address5"/>
+            <string>158453042</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key4</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker6">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <long>1170655829461448705</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <string>Pudge</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates6">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates6"/>
+         <long>142</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates6"/>
+         <double>67.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <float>180704.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2035-02-15</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <object idref="Position0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <object class="java.lang.Enum" id="Status3" method="valueOf">
+       <class>ru.stepagin.common.lab.Status</class>
+       <string>FIRED</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker6"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization6">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization6"/>
+         <int>4510</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization6"/>
+         <object class="java.lang.Enum" id="OrganizationType2" method="valueOf">
+          <class>ru.stepagin.common.lab.OrganizationType</class>
+          <string>COMMERCIAL</string>
+         </object>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization6"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address6">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address6"/>
+            <string>Slave str. 44</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address6"/>
+            <string>350640890</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key9</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker7">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <long>8257893353041856513</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <string>Artem</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates7">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates7"/>
+         <long>584</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates7"/>
+         <double>83.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <float>802784.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2086-07-22</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <object class="java.lang.Enum" method="valueOf">
+       <class>ru.stepagin.common.lab.Position</class>
+       <string>HEAD_OF_DEPARTMENT</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <object idref="Status2"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker7"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization7">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization7"/>
+         <int>1257</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization7"/>
+         <object idref="OrganizationType0"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization7"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address7">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address7"/>
+            <string>Slave str. 7</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address7"/>
+            <string>963122446</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key7</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker8">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <long>955518897620046849</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <string>Artem</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates8">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates8"/>
+         <long>549</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates8"/>
+         <double>31.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <float>737345.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2068-05-10</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <object idref="Position1"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <object idref="Status0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker8"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization8">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization8"/>
+         <int>1433</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization8"/>
+         <object idref="OrganizationType2"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization8"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address8">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address8"/>
+            <string>Slave str. 84</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address8"/>
+            <string>495135948</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>key8</string>
+   <object class="ru.stepagin.common.lab.Worker" id="Worker9">
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <long>9057484377016522753</long>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>name</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <string>Donald_Trump</string>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>coordinates</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <object class="ru.stepagin.common.lab.Coordinates" id="Coordinates9">
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Coordinates9"/>
+         <long>746</long>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Coordinates" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Coordinates9"/>
+         <double>70.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>creationDate</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2022-09-21</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>salary</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <float>684970.0</float>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>endDate</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <object class="java.time.LocalDate" method="parse">
+       <string>2036-01-18</string>
+      </object>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>position</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <object idref="Position0"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>status</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <object idref="Status3"/>
+     </void>
+    </void>
+    <void class="ru.stepagin.common.lab.Worker" method="getField">
+     <string>organization</string>
+     <void method="set">
+      <object idref="Worker9"/>
+      <object class="ru.stepagin.common.lab.Organization" id="Organization9">
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>annualTurnover</string>
+        <void method="set">
+         <object idref="Organization9"/>
+         <int>3356</int>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>type</string>
+        <void method="set">
+         <object idref="Organization9"/>
+         <object idref="OrganizationType1"/>
+        </void>
+       </void>
+       <void class="ru.stepagin.common.lab.Organization" method="getField">
+        <string>officialAddress</string>
+        <void method="set">
+         <object idref="Organization9"/>
+         <object class="ru.stepagin.common.lab.Address" id="Address9">
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>street</string>
+           <void method="set">
+            <object idref="Address9"/>
+            <string>Slave str. 17</string>
+           </void>
+          </void>
+          <void class="ru.stepagin.common.lab.Address" method="getField">
+           <string>zipCode</string>
+           <void method="set">
+            <object idref="Address9"/>
+            <string>623578730</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
